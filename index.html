@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com  -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album de Fotos!</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="imagens/Museu de Arte conteporanea.jpg" alt="" class="image" />
+          <div class="image-data">
+            <!--<span class="text">Oiii, prazer.</span>-->
+            <h2>
+                Bem vindo ao meu album de fotografias. <br />
+            </h2>
+          </div>
+        </div>
+
+        <div class="slide swiper-slide">
+            <img src="imagens/peloru.jpg" alt="" class="image" />
+          </div>
+
+          <div class="slide swiper-slide">
+            <img src="imagens/20230520_074736.jpg" alt="" class="image" />
+          </div>
+
+        <div class="slide swiper-slide">
+          <img src="imagens/20230520_095752.jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/cidade alta.jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/Farol da Barra.jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/pelourinho.jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/salvador.jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/Viajem - Arraial-Busiso 2021 (60) (1).jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/Viajem - Arraial-Busiso 2021 (68) (1).jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/Viajem - Rio de Janeiro 2021 (147) (1).jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/Viajem - Rio de Janeiro 2021 (163) (1).jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/Viajem - Rio de Janeiro 2021 (164) (1).jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/Viajem - Rio de Janeiro 2021 (18) (1).jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/Viajem -Angela - RJ 2023 (126) (1).jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+            <img src="imagens/Viajem -Angela - RJ 2023 (154) (1).jpg" alt="" class="image" />
+        </div>
+
+        <div class="slide swiper-slide">
+          <img src="imagens/Azuleijo.jpg" alt="" class="image" />
+        </div>
+        </div>
+        
+
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
