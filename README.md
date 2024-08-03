@@ -17,7 +17,7 @@
 
 ## Instrução para alteração:
 
-    - Execute: git clone https://github.com/Victorcardoso-GG23/Album-de-fotos;
+    - Execute: git clone https://github.com/VictorCardosoOl/Album-de-fotos;
     - Altere as fotos na pagina imagens em seguida alteri os destinos de fotos no arquivo index.html;
 
 ## Licença para: 
