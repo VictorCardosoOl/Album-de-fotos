@@ -24,4 +24,4 @@ Tem como objetivo treinar:
 
 - Uso educacional.
 
-<img src="/assets/repositorioalbumdefotos.png">
+<img src="/assets/repositori oalbum de fotos.png">
