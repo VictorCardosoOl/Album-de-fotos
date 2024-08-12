@@ -2,24 +2,24 @@
 
 ## Sobre o Projeto:
 
-    Código para exibição de fotos;
+Código para exibição de fotos;
 
-    Tem como objetivo treinar:
+Tem como objetivo treinar:
 
-        - Logica de Programação;
-        - Proporção;
-        - Sintaxe.
+- Logica de Programação;
+- Proporção;
+- Sintaxe.
 
 ## Tecnologia Empregada:
 
-    - Html;
-    - Css.
+- Html;
+- Css.
 
 ## Instrução para alteração:
 
-    - Execute: git clone https://github.com/VictorCardosoOl/Album-de-fotos;
-    - Altere as fotos na pagina imagens em seguida alteri os destinos de fotos no arquivo index.html;
+- Execute: git clone https://github.com/VictorCardosoOl/Album-de-fotos;
+- Altere as fotos na pagina imagens em seguida alteri os destinos de fotos no arquivo index.html;
 
 ## Licença para: 
 
-    - Uso educacional.
+- Uso educacional.
